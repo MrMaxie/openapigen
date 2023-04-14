@@ -10,9 +10,9 @@ export default defineConfig(() => {
         build: {
             lib: {
                 entry: resolve(__dirname, './src/index.ts'),
-                name: 'openapi-ts-codegen',
+                name: 'oapicodegen',
                 formats: ['cjs', 'es'],
-                fileName: format => `main.${format}.js`
+                fileName: format => `index.${format}.js`
             },
         },
     };
