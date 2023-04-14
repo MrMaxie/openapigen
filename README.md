@@ -1,4 +1,4 @@
-# OpenApiGen
+# OApiCodeGen
 
 This package provides an easy and efficient way to generate code for various programming languages from OpenAPI specifications (both OpenAPI 2 and OpenAPI 3 are supported).
 
@@ -12,7 +12,7 @@ This package provides an easy and efficient way to generate code for various pro
 ## Installation
 
 ```sh
-npm install --save-dev openapigen
+npm install --save-dev oapicodegen
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ npm install --save-dev openapigen
 First, import the package in one of your files:
 
 ```ts
-import { Api } from 'openapigen';
+import { Api } from 'oapicodegen';
 ```
 
 First of all create context object for future needs:

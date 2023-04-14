@@ -1,5 +1,5 @@
 {
-    "name": "openapigen",
+    "name": "oapicodegen",
     "private": false,
     "version": "1.0.0",
     "description": "OpenAPI 2/3 transformer & codegen",
