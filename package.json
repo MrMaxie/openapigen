@@ -1,7 +1,7 @@
 {
     "name": "oapicodegen",
     "private": false,
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "OpenAPI 2/3 transformer & codegen",
     "keywords": [
         "openapi",
@@ -24,8 +24,8 @@
     "types": "./dist/esm/index.d.ts",
     "exports": {
         ".": {
-            "import": "./dist/esm/index.es.js",
-            "require": "./dist/cjs/index.cjs.js"
+            "import": "./dist/esm/index.js",
+            "require": "./dist/cjs/index.js"
         }
     },
     "scripts": {
